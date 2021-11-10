@@ -234,7 +234,7 @@ $(".card .list-group").sortable({
   }
 });
 
-// drop method -trash icon can be dropped onto
+// drop method trash icon can be dropped onto
 $("#trash").droppable({
   accept: ".card .list-group-item",
   tolerance: "touch",
